@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+    width: 500px;
+    height: 500px;
+    background-color: #CCC;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* .box {
+    background-color: #17802cAA;
+    background-color: rgba(35, 180, 190, 0.616);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    overflow: scroll;
+    padding: 10px;
+    border: 10px solid red;
+    top: 190px;
+    left: 190px;
+    right: -50px;
+    bottom: -50px;
+    dis
+} */
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(35, 180, 190, 0.616);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+}
+
