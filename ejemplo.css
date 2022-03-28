@@ -109,17 +109,30 @@ body {
     height: 30px;
     margin-top: 20px;
     width: 80px;
-    animation-duration: 3s;
-    animation-name: slidein;
+    /* animation-duration: 3s;
+    animation-name: slidein; */
 }
 
 .formLogin .form .inputs button:hover {
-    color: red;
+    color: gray;
     cursor: pointer;
     box-shadow: 2px 2px 5px #666666;
 }
 
-@keyframes slidein {
+.formLogin .form .social-media {
+    text-align: center;
+    font-size: 30px;
+}
+
+.formLogin .form .social-media .fa-html5 {
+    color: #eb9f13;
+}
+
+.formLogin .form .social-media .fa-css3 {
+    color: #1f6dd4;
+}
+
+/* @keyframes slidein {
     from {
       margin-left: 100%;
       width: 300%;
@@ -130,7 +143,7 @@ body {
       width: 100%;
     }
 }
-
+ */
 
 /* 
 
